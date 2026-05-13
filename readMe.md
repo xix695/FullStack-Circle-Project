@@ -1,6 +1,6 @@
 **video Link**
 
-https://usask.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f13a8f0-a972-4adc-9f51-b44900443e21&start=0
+https://usask.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a0c029be-17d3-4d5c-a6d8-b44901294c98&start=0
 
 
 **submitted files and folder structure:**
@@ -87,21 +87,11 @@ step 12: npx create-react-app my-react-app
 
 step 13: cd my-react-app
 
-# 14~17 are React patches
+step 14: copy src folder src located in ./client/ to ./client/my-react-app to replace existing src folder in ./client/my-react-app
 
-step 14: npm install axios react-router-dom@6 js-cookie formik yup
+step 15: stay in the folder ./my-react-app
 
-step 15: npm install --save-dev @babel/plugin-proposal-class-properties
-
-step 16: npm install --save-dev @babel/plugin-proposal-decorators
-
-step 17: npm install --save-dev @babel/plugin-proposal-private-property-in-object
-
-step 18: copy src folder src located in ./client/ to ./client/my-react-app to replace existing src folder in ./client/my-react-app
-
-step 19: stay in the folder ./my-react-app
-
-step 20: npm start
+step 16: npm start
 
 # dependencies list used for the system
 # Except a few dependencies, all other dependencies were frequently used in assignment 1 ~ 4. I give some notes to the a few dependencies which I didn't used for our assignments.
