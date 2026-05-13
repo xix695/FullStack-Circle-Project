@@ -1,0 +1,40 @@
+.regContain {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    margin-top: 20pt;
+  }
+  
+  .regContain form, .regContain span {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .regContain input, .regContain span  {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  .regContain small {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .regContain button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+  }
+  
+  .regContain button:hover {
+    background-color: #45a049;
+  }
+  

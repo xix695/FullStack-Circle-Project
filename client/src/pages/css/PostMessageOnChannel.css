@@ -1,0 +1,97 @@
+.App-Msg {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.post-Msg {
+  margin-bottom: 20px;
+}
+
+.label-message {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: solid;
+}
+
+.submit-button-Msg,
+.reset-Msg,
+.deletePost {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.deletePost {
+  margin-left: 10pt;
+  background-color:red
+}
+
+.submit-button-Msg:hover,
+.reset-Msg:hover {
+  background-color: #45a049;
+}
+
+.input-file {
+  margin-bottom: 10px;
+}
+
+.posts_container {
+  margin-top: 5px;
+}
+
+.posts-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.mainInfo-postList {
+  text-decoration: none;
+  color: #333;
+}
+
+.mainInfo-postList:hover {
+  color: #007bff;
+}
+
+.display-posts-container {
+  margin-top: 20px;
+}
+
+.h2-display-posts {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.thumbs-container {
+  display: flex;
+  margin-left: 600px;
+}
+
+#ThumbsUp, #ThumbsDown {
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.App-Msg{
+  margin-top: 100px;
+}

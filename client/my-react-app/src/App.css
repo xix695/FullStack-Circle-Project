@@ -1,0 +1,230 @@
+/* App.css */
+
+/* Style for the App container */
+.App, .App #logout{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+/* Style for the navbar */
+.navbar, #logout {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the navbar links */
+.navbar a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#root, #home, #channel, #createc, #search, #admin, #profile{
+  margin-top: 15px;
+}
+
+/* For Post component */
+
+.posts{
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 480px;
+  margin-left: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.submit-button, .reset{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.warning {
+  color: red;
+}
+
+.nickname {
+  border: 1px solid #3498db;
+  width: 15%;
+  background-color: rgb(241, 239, 239);
+ 
+}
+
+.posts:hover {
+  box-shadow: 1px 3px 5px rgb(95, 95, 107);
+ 
+}
+
+
+/* make up navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue; 
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #333; 
+}
+
+.landingpage, .initx, .channellist, .createchannel {
+  margin-top: 100px;
+} 
+
+.regContain {
+
+  align-items: center;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+
+}
+
+.regContain input{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 20%;
+}
+
+.regBtn, .login{
+
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 23%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.regContain p{
+  display: flex;
+  flex-direction: column;
+  margin-right: 450pt;
+}
+
+.loginContain{
+
+  align-items: center;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+
+}
+
+.loginContain input{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 20%;
+}
+
+.loginContain label, .loginContain label button, .loginContain h2{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.Search {
+
+  margin-top: 50px;
+}
+
+.deleteChannel, .deleteUser{
+  background-color: red;
+  color: white;
+}
+
+.deleteUser{
+  
+  margin-left: 80pt;
+}
+
+/* App.css */
+
+.Admin {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.tickets {
+  margin-top: 20px;
+}
+
+.submit-button,
+.reset,
+.ticketBtn {
+  margin-top: 10px;
+}
+
+.eachticket {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
